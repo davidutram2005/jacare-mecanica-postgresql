@@ -244,8 +244,4 @@ Em cargas grandes numa única transação, o tempo cresce mais rápido que a qua
 - Um lançamento com só uma das contas preenchida altera só um lado, e os totais devedor e credor deixam de bater.
 - No PostgreSQL, chave estrangeira não cria índice sozinha (no MySQL, cria). Os índices em `conta_debito_id` e `conta_credito_id` são criados apenas no teste de carga.
 
----
 
-## 📌 Pendências
-
-- [ ] Modelos conceitual e lógico no brModelo, a serem colocados em `docs/`.
