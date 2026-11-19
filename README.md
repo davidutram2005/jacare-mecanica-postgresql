@@ -13,18 +13,16 @@ Banco de dados de um sistema integrado de gestão para a **Jacaré Mecânica**, 
 ```
 ├── README.md
 ├── scripts/
-│   ├── PiEnt2.sql          script completo: estrutura, dados de teste, views e Práticas 03 e 05
-│   ├── 01_site.sql         só a estrutura do schema site
-│   ├── 02_adm.sql          só a estrutura do schema adm
-│   ├── 03_contabil.sql     só a estrutura do schema contabil
-│   └── testes/
-│       ├── rodar_testes.sh   roda toda a bateria e grava os logs em testes/resultados/
-│       ├── testes.sql        53 testes funcionais (integridade, trigger, views, dados, práticas)
-│       ├── teste_carga.sql   teste de carga com 100 mil lançamentos
-│       └── um_lancamento.sql transação usada no pgbench
-└── docs/
-    ├── Artigo_Jacare_Mecanica.docx
-    └── Slides_PI_Entrega02_Jacare_Mecanica.pdf
+   ├── PiEnt2.sql          script completo: estrutura, dados de teste, views e Práticas 03 e 05
+   ├── 01_site.sql         só a estrutura do schema site
+   ├── 02_adm.sql          só a estrutura do schema adm
+   ├── 03_contabil.sql     só a estrutura do schema contabil
+   └── testes/
+       ├── rodar_testes.sh   roda toda a bateria e grava os logs em testes/resultados/
+       ├── testes.sql        53 testes funcionais (integridade, trigger, views, dados, práticas)
+       ├── teste_carga.sql   teste de carga com 100 mil lançamentos
+       └── um_lancamento.sql transação usada no pgbench
+
 ```
 
 ---
